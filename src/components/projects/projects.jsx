@@ -31,6 +31,7 @@ export default function Projects() {
 
     return (
         <div className='projects_container'>
+            <h1 className='projectsTitle'>Un poco de mi trabajo</h1>
         {projects.map((project) =>
             <div className='projects_subcontainer'>
                 <Card sx={{ width: '70%', display: 'flex', backgroundColor: '#171717' }}>

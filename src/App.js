@@ -5,6 +5,7 @@ import About from './components/about/about';
 import Projects from './components/projects/projects';
 import './App.css';
 import ResponsiveAppBar from './components/navbar/navbar';
+import Contact from './components/contact/contact';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
             <Route exact path='/' element={<Home/>}/>
             <Route exact path='/about' element={<About/>}/>
             <Route exact path='/projects' element={<Projects/>}/>
+            <Route exact path='/contact' element={<Contact/>}/>
           </Routes>
         </React.Fragment>
       </BrowserRouter>

@@ -1,0 +1,57 @@
+.contactContainer{
+    min-height: 100vh;
+    color: whitesmoke;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    animation: appear 4s;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 3%;
+}
+
+h1{
+    font-family: 'Lalezar', cursive;
+}
+
+.contactSubcontainer{
+    display: flex;
+    justify-content: center;
+}
+
+.cv_button{
+    border-radius: 10px;
+    height: 40px;
+    background-color: #232323;
+    padding: 2.5%;
+    padding-bottom: 0;
+    color: whitesmoke;
+    text-decoration: none;
+    animation: appearContact 4s;
+}
+
+.cv_button:hover{
+    background-color: whitesmoke;
+    color: #232323;
+}
+
+.linkedinLogo{
+    zoom: 350%;
+    color: whitesmoke;
+    animation: appear 4s;
+}
+
+.img_QR{
+    border-radius: 10px;
+    animation: 3s grow;
+}
+
+@keyframes appearContact {
+    from {
+      color: rgba(245, 245, 245, 0);
+      background-color: #23232300;
+    }
+  
+    to {
+        color: whitesmoke;
+        background-color: #232323
+    }
+}
