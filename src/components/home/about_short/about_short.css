@@ -1,0 +1,20 @@
+.about_short_container{
+    width: 100%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    color: whitesmoke;
+    font-size: 20px;
+    background-color: #171717;
+    display: flex;
+    justify-content: center;
+}
+
+.about_short_title{
+    font-family: 'Lalezar', cursive;
+}
+
+.about_short_subcontainer{
+    width: 60%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    animation: appear 5s;
+}

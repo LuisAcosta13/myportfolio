@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Gamja+Flower&family=Lalezar&display=swap');
+
+.title_container{
+    padding-top: 7%;
+    width: 70%;
+    font-family: 'Lalezar', cursive;
+    color: whitesmoke;
+    font-size: 50px;
+    min-height: 80vh;
+    overflow: hidden;
+}
+
+.profile_img{
+    border-radius: 80%;
+    width: 20%;
+    animation: 2s grow;
+}
+
+.title_text{
+    animation: 2s slidein;
+}
+
+.title_subtext{
+    font-size: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    animation: 3s slidein;
+}
+
+@keyframes slidein {
+    from {
+      width: 300%;
+    }
+  
+    to {
+      width: 100%;
+    }
+}
+
+@keyframes grow {
+    from {
+      scale: 0%;
+    }
+  
+    to {
+      scale: 100%;
+    }
+}

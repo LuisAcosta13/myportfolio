@@ -1,0 +1,54 @@
+.about_container{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 7%;
+}
+
+.about_subcontainer{
+    width: 80%;
+    color: whitesmoke;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    animation: appear 4s;
+}
+
+.about_subtitle{
+    padding-top: 3%;
+    padding-bottom: 1%;
+    border-bottom: 0.1px solid rgba(155, 155, 154, 0.546);
+}
+
+.certifications{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    font-size: smaller;
+}
+
+.certificate_img{
+    border-radius: 5%;
+    width: 300px;
+    height: 250px;
+    padding: 10px;
+    animation: grow 4s;
+}
+
+.certificate_img:hover{
+    cursor: pointer;
+    -webkit-transform:scale(1.55);
+    -moz-transform:scale(1.55);
+    -ms-transform:scale(1.55);
+    -o-transform:scale(1.55);
+    transform:scale(1.55);
+    transition: 0.5s;
+}
+
+@keyframes appear {
+    from {
+      color: rgba(245, 245, 245, 0)
+    }
+  
+    to {
+        color: whitesmoke
+    }
+}
