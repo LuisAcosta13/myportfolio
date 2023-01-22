@@ -1,0 +1,18 @@
+.reviewsContainer{
+    color: whitesmoke;
+    font-family: 'Lalezar', cursive;
+}
+
+.reviewsSubcontainer{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.reviewCard{
+    padding: 3%;
+}
+
+.reviewText{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important;
+}

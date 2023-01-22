@@ -30,8 +30,9 @@ export default function Projects() {
     ];
 
     return (
-        projects.map((project) =>
-            <div className='projects_container'>
+        <div className='projects_container'>
+        {projects.map((project) =>
+            <div className='projects_subcontainer'>
                 <Card sx={{ width: '70%', display: 'flex', backgroundColor: '#171717' }}>
                     <Box sx={{ overflowY: 'scroll', display: 'flex', flexDirection: 'column' }}>
                         <CardContent sx={{ flex: '1 0 auto' }}>
@@ -52,6 +53,6 @@ export default function Projects() {
                     />
                 </Card>
             </div>
-        )
+        )}</div>
     );
 }
