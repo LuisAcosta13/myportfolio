@@ -19,6 +19,16 @@ export default function Reviews(){
             name: 'Bernardo Broscheit',
             rol: 'Desarrollador FullStack',
             opinion: 'Trabaje con Luis a lo largo del Bootcamp Soy Henry y durante la cursada siempre demostro ser compañero, divertido, creativo y con ganas de aprender nuevas herramientas. Su curiosidad, pro actividad y poder de adaptacion fueron claves tambien para encarar los desafios del proyecto final. No tengo dudas que puede manejarse muy bien en un entorno laboral y aportar muchas habilidades mas.'
+        },
+        {
+            name: 'Bárbara Miranda',
+            rol: 'Estudiante de FullStack',
+            opinion: 'Tuve el placer de transitar mi cursada de soyHenry con Luis, quien fue mi teacher Assistant. Destacado por la paciencia, la contención, el positivismo y un gran developer web que siempre supo responder a nuestras dudas!'
+        },
+        {
+            name: 'José Carlos Mestre',
+            rol: 'Estudiante de FullStack',
+            opinion: 'Nos conocimos en SoyHenry. Su ayuda como TA fue excelente. Es un gran ser humano. Nos apoyo, a mis compañeros y a mi, tanto en respaldo emocional como en ayudas técnicas.'
         }
     ]
 

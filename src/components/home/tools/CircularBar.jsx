@@ -9,7 +9,7 @@ import './tools.css'
 function CircularProgressBar(props) {
   return (
     <Box sx={{ position: 'relative', display: 'inline-flex', padding: '3%' }}>
-      <CircularProgress sx={{ color: 'var(--main_color)'}} variant="determinate" {...props} />
+      <CircularProgress sx={{ color: '#3c0b70'}} variant="determinate" {...props} />
       <Box
         sx={{
           top: 0,
