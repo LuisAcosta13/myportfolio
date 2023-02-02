@@ -2,6 +2,7 @@ import React from "react";
 import cv from "./LuisAcosta_CV.pdf"
 import QR from './QR_WP_LuisAcosta.jpg'
 import { BsLinkedin } from 'react-icons/bs'
+import { BsGithub } from 'react-icons/bs'
 import './contact.css';
 
 export default function Contact(){
@@ -28,14 +29,22 @@ export default function Contact(){
             </div>
             <div>
                 <h3>
-                    Visita mi perfil de LinkedIn haciendo click aquí
+                    Visita algunos de mis perfiles
                 </h3>
-                <a className="linkedinLogo" 
-                    href="https://www.linkedin.com/in/react-front/" 
-                    target="_blank"
-                >
-                    <BsLinkedin/>
-                </a>   
+                <div className="logoContainer">
+                    <a className="linkedinLogo" 
+                        href="https://www.linkedin.com/in/react-front/" 
+                        target="_blank"
+                    >
+                        <BsLinkedin/>
+                    </a>
+                    <a className="linkedinLogo" 
+                        href="https://www.github.com/LuisAcosta13/" 
+                        target="_blank"
+                    >
+                        <BsGithub/>
+                    </a>   
+                </div>   
             </div>
             <div>
                 <h3>

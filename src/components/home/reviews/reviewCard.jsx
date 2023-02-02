@@ -9,7 +9,7 @@ export default function ReviewCard({name, rol, opinion}) {
 
   return ( 
     <div className='reviewCard'>
-        <Card sx={{ maxWidth: 345, backgroundColor: '#232323' }}>
+        <Card sx={{ maxWidth: 345, backgroundColor: '#343344' }}>
             <CardHeader
                 // avatar={
                 //   <Avatar sx={{ bgcolor: red[500] }} aria-label="recipe">
