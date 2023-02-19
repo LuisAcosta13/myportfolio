@@ -29,6 +29,16 @@ export default function Reviews(){
             name: 'José Carlos Mestre',
             rol: 'Estudiante de FullStack',
             opinion: 'Nos conocimos en SoyHenry. Su ayuda como TA fue excelente. Es un gran ser humano. Nos apoyo, a mis compañeros y a mi, tanto en respaldo emocional como en ayudas técnicas.'
+        },
+        {
+            name: 'José Carlos Mestre',
+            rol: 'Estudiante de FullStack',
+            opinion: 'Nos conocimos en SoyHenry. Su ayuda como TA fue excelente. Es un gran ser humano. Nos apoyo, a mis compañeros y a mi, tanto en respaldo emocional como en ayudas técnicas.'
+        },
+        {
+            name: 'José Carlos Mestre',
+            rol: 'Estudiante de FullStack',
+            opinion: 'Durante la cursada de Henry, Luis fue mi TA, demostrando grandes dotes de líder, con amplios conocimientos en desarrollo Full Stack, con un excelente trato y disposición con todos, y siempre dispuesto a dar una mano a quien lo necesitara.'
         }
     ]
 
@@ -38,9 +48,6 @@ export default function Reviews(){
                 No me creas a mi, esto es lo que dicen los demás...
             </h1>
             <div className="reviewsSubcontainer">
-                
-
-                
                 {reviews.map((rev) => 
                     <ReviewCard name={rev.name} rol={rev.rol} opinion={rev.opinion}/>    
                 )}
