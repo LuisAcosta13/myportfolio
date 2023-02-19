@@ -31,12 +31,7 @@ export default function Reviews(){
             opinion: 'Nos conocimos en SoyHenry. Su ayuda como TA fue excelente. Es un gran ser humano. Nos apoyo, a mis compañeros y a mi, tanto en respaldo emocional como en ayudas técnicas.'
         },
         {
-            name: 'José Carlos Mestre',
-            rol: 'Estudiante de FullStack',
-            opinion: 'Nos conocimos en SoyHenry. Su ayuda como TA fue excelente. Es un gran ser humano. Nos apoyo, a mis compañeros y a mi, tanto en respaldo emocional como en ayudas técnicas.'
-        },
-        {
-            name: 'José Carlos Mestre',
+            name: 'Claudio Di Toro',
             rol: 'Estudiante de FullStack',
             opinion: 'Durante la cursada de Henry, Luis fue mi TA, demostrando grandes dotes de líder, con amplios conocimientos en desarrollo Full Stack, con un excelente trato y disposición con todos, y siempre dispuesto a dar una mano a quien lo necesitara.'
         }
