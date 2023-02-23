@@ -1,5 +1,5 @@
 import React from "react";
-import cv from "./LuisAcosta_CV.pdf"
+import cv from "./CV_Luis_Acosta_2023.pdf"
 import QR from './QR_WP_LuisAcosta.jpg'
 import { BsLinkedin } from 'react-icons/bs'
 import { BsGithub } from 'react-icons/bs'
