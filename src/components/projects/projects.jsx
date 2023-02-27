@@ -6,12 +6,18 @@ import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import luishiGames from './LuishiGames.png' 
 import henryMarket from './HenryMarket.png' 
-import rickAndMorty from './RickandMorty.png' 
+import rickAndMorty from './RickandMorty.png'
+import mywapp from './Mywapp.png' 
 import './projects.css'
 
 export default function Projects() {
 
     const projects = [
+        {
+            name: 'My Wapp',
+            description: 'My Wapp es un clon de WhatsApp Web realizado con React y Typescript.',
+            img: mywapp
+        },
         {
             name: 'HenryMarket',
             description: 'HenryMarket es una plataforma e-commerce para la venta de productos de supermercado hecha como proyecto final para el bootcamp SoyHenry junto a otros 7 alumnos de Argentina, Venezuela y Colombia. Durante su desarrollo estuve a cargo de coordinar el diseño UI/UX y el trabajo de cada integrante del equipo, a la vez que participé del desarrollo de la mayoría de los componentes que se visualizan en pantalla. Entre las herramientas usadas se encuentran Javascript, React.js, Redux, Material UI, Node.js, Express.js, SQL, PostgreSQL y Sequelize.',
