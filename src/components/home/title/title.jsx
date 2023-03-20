@@ -12,7 +12,7 @@ export default function Title(){
                 Hola, soy Luis.
             </div>
             <div className="title_subtext">
-                Desarrollador Full Stack con orientación en Front End, me defino a mi mismo como un potencial líder.
+                Desarrollador Full Stack con orientación en Front End, disfruto de llevar el fruto de la imaginación a la pantalla.
             </div>
         </div>
     )
