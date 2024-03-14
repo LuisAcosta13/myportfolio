@@ -3,8 +3,9 @@
 }
 
 .projectsTitle{
-    color: whitesmoke;
-    animation: appear 3s;
+    background: linear-gradient(154deg, #1c1c1c, #6b6b6b, #cfcfcf, #f1f1f1);
+    color: transparent;
+    -webkit-background-clip: text;
 }
 
 .projects_subcontainer{

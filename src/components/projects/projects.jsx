@@ -8,36 +8,42 @@ import luishiGames from './LuishiGames.png'
 import henryMarket from './HenryMarket.png' 
 import rickAndMorty from './RickandMorty.png'
 import mywapp from './Mywapp.png' 
+import cvba from './CVBA.png'
 import './projects.css'
 
 export default function Projects() {
 
     const projects = [
         {
+            name: 'Camerata Vocalis Buenos Aires',
+            description: "This website shows Camerata Vocalis work and it's story. You can also read and take a listen to their repertory, access their YouTube channel and see future concerts dates.",
+            img: cvba
+        },
+        {
             name: 'My Wapp',
-            description: 'My Wapp es un clon de WhatsApp Web realizado con React y Typescript.',
+            description: 'My Wapp is a WhatsApp Web clone built with React and TypeScript.',
             img: mywapp
         },
         {
             name: 'HenryMarket',
-            description: 'HenryMarket es una plataforma e-commerce para la venta de productos de supermercado hecha como proyecto final para el bootcamp SoyHenry junto a otros 7 alumnos de Argentina, Venezuela y Colombia. Durante su desarrollo estuve a cargo de coordinar el diseño UI/UX y el trabajo de cada integrante del equipo, a la vez que participé del desarrollo de la mayoría de los componentes que se visualizan en pantalla. Entre las herramientas usadas se encuentran Javascript, React.js, Redux, Material UI, Node.js, Express.js, SQL, PostgreSQL y Sequelize.',
+            description: 'HenryMarket is an e-commerce platform for selling grocery products, created as the final project for the SoyHenry bootcamp in collaboration with seven other students from Argentina, Venezuela, and Colombia. During its development, I was responsible for coordinating UI/UX design and overseeing the work of each team member. Additionally, I actively contributed to the development of most of the components visible on the screen. The technologies used included JavaScript, React.js, Redux, Material UI, Node.js, Express.js, SQL, PostgreSQL, and Sequelize.',
             img: henryMarket
         },
         {
             name: 'LuishiGames',
-            description: 'LuishiGames es un buscador de videojuegos que se alimenta de la api Rawg.io y fue desarrollada por mí como proyecto individual para el bootcamp SoyHenry.En este proyecto puse a prueba todas mis habilidades como Front-End y Back-End developer, utilizando javascript, React.js, Redux, Node.js, Express.js, SQL, PostgreSQL y Sequelize.',
+            description: 'LuishiGames is a video game search engine that draws data from the Rawg.io API. I developed it as an individual project during the SoyHenry bootcamp. Throughout this project, I put all my skills as a Front-End and Back-End developer to the test, utilizing JavaScript, React.js, Redux, Node.js, Express.js, SQL, PostgreSQL, and Sequelize.',
             img: luishiGames
         },
         {
             name: 'Rick & Morty Database',
-            description: 'Este es mi primer proyecto de frontend realizado con React.js. Permite navegar por una lista de todos los personajes que aparecieron en la serie de Ricky y Morty, y acceder al detalle de cada uno.',
+            description: 'This is my first frontend project built with React.js. It allows you to browse a list of all the characters that appeared in the Rick and Morty series and access the details of each one.',
             img: rickAndMorty
         }
     ];
 
     return (
         <div className='projects_container'>
-            <h1 className='projectsTitle'>Un poco de mi trabajo</h1>
+            <h1 className='projectsTitle'>Take a look at my projects</h1>
         {projects.map((project) =>
             <div className='projects_subcontainer'>
                 <Card sx={{ width: '70%', display: 'flex', backgroundColor: '#171717' }}>

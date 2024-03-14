@@ -2,9 +2,9 @@
     width: 100%;
     padding-top: 3%;
     padding-bottom: 3%;
-    color: whitesmoke;
+    color: rgb(22, 22, 22);
     font-size: 20px;
-    background-color: #171717;
+    background: linear-gradient(154deg, #d8d8d8, #d8d8d8, #848484, #848484, #d8d8d8, #d8d8d8);
     display: flex;
     justify-content: center;
 }
@@ -16,5 +16,4 @@
 .about_short_subcontainer{
     width: 60%;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    animation: appear 5s;
 }

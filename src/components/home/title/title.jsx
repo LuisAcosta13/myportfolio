@@ -9,10 +9,10 @@ export default function Title(){
             <img className="profile_img" src={img} alt="Foto de perfil"/>
             </div>
             <div className="title_text">
-                Hola, soy Luis.
+                Hello there! I'm Luis.
             </div>
             <div className="title_subtext">
-                Desarrollador Full Stack con orientación en Front End, disfruto de llevar el fruto de la imaginación a la pantalla.
+                I'm a Frontend Developer and I enjoy creating and translating mock-ups into code!
             </div>
         </div>
     )

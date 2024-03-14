@@ -9,7 +9,7 @@ export default function ReviewCard({name, rol, opinion}) {
 
   return ( 
     <div className='reviewCard'>
-        <Card sx={{ maxWidth: 345, backgroundColor: '#343344' }}>
+        <Card sx={{ maxWidth: 345, background: 'linear-gradient(154deg, #C0C0C0, #808080, #C0C0C0)', borderRadius: '16px' }}>
             <CardHeader
                 // avatar={
                 //   <Avatar sx={{ bgcolor: red[500] }} aria-label="recipe">
@@ -21,7 +21,7 @@ export default function ReviewCard({name, rol, opinion}) {
                 //     <MoreVertIcon />
                 //   </IconButton>
                 // }
-                sx={{ color: 'whitesmoke' }}
+                sx={{ color: 'black' }}
                 title={name}
                 subheader={rol}
             />
@@ -31,9 +31,9 @@ export default function ReviewCard({name, rol, opinion}) {
                 image="/static/images/cards/paella.jpg"
                 alt="Paella dish"
             /> */}
-            <CardContent sx={{ minHeight: 200 }}>
-                <Typography className='reviewText' variant="body2" sx={{ color: 'whitesmoke' }}>
-                {opinion}
+            <CardContent sx={{ minHeight: 250 }}>
+                <Typography className='reviewText' variant="body2" sx={{ color: 'black' }}>
+                    {opinion}
                 </Typography>
             </CardContent>
         </Card>

@@ -1,5 +1,5 @@
 import React from "react";
-import cv from "./CV_Luis_Acosta_2023.pdf"
+import cv from "./Luis_Acosta_Resume_2024.pdf"
 import QR from './QR_WP_LuisAcosta.jpg'
 import { BsLinkedin } from 'react-icons/bs'
 import { BsGithub } from 'react-icons/bs'
@@ -10,13 +10,13 @@ export default function Contact(){
         <div className="contactContainer">
             <div>
                 <h1>
-                    Necesitas una mano con tu página web?<br/> 
-                    ¡Trabajemos juntos!
+                    Need a hand with your website?<br/> 
+                    Let's work together!
                 </h1>
                 <h3>
-                    Siempre estoy buscando nuevos desafios y me encuentro abierto a propuestas que 
-                    se adapten a mi perfil o que me den la oportunidad de aprender 
-                    a utilizar otras herramientas
+                    I'm always looking for new challenges and open to proposals that 
+                    align with my profile or give me the opportunity to learn 
+                    how to use other tools.
                 </h3>
             </div>
             <div>
@@ -24,12 +24,12 @@ export default function Contact(){
             </div>
             <div className="contactSubcontainer">
                 <a className="cv_button" href={cv} download="Luis Acosta CV">
-                    Descarga mi curriculum
+                    Download my resume
                 </a>
             </div>
             <div>
                 <h3>
-                    Visita algunos de mis perfiles
+                    Here are some of my websites for you to visit
                 </h3>
                 <div className="logoContainer">
                     <a className="linkedinLogo" 
@@ -48,7 +48,7 @@ export default function Contact(){
             </div>
             <div>
                 <h3>
-                    O escanea el siguiente QR con tu celular
+                    You can also scan this QR to contact me
                 </h3>
                 <img className='img_QR' src={QR} alt='Mi QR de WhatsApp'/>
             </div>

@@ -1,8 +1,9 @@
 .contactContainer{
     min-height: 100vh;
-    color: whitesmoke;
+    background: linear-gradient(154deg, #797979, #ffffff, #ffffff);
+    color: transparent;
+    -webkit-background-clip: text;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    animation: appear 4s;
     padding-left: 15%;
     padding-right: 15%;
     padding-bottom: 3%;

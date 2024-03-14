@@ -4,9 +4,11 @@
     padding-top: 7%;
     width: 70%;
     font-family: 'Lalezar', cursive;
-    color: whitesmoke;
+    background: linear-gradient(154deg, #1c1c1c, #6b6b6b, #cfcfcf, #f1f1f1);
+    color: transparent;
+    -webkit-background-clip: text;
     font-size: 50px;
-    min-height: 80vh;
+    margin-bottom: 150px;
     overflow: hidden;
 }
 
@@ -17,13 +19,13 @@
 }
 
 .title_text{
-    animation: 2s slidein;
+    animation: 3s slidein;
 }
 
 .title_subtext{
     font-size: 20px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    animation: 3s slidein;
+    animation: 5s slidein;
 }
 
 @keyframes slidein {
@@ -38,10 +40,10 @@
 
 @keyframes grow {
     from {
-      scale: 0%;
+      filter: blur(100px);
     }
   
     to {
-      scale: 100%;
+      filter: blur(0px);
     }
 }

@@ -9,7 +9,7 @@
     width: 80%;
     color: whitesmoke;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    animation: appear 4s;
+    animation: appear 2s;
 }
 
 .about_subtitle{
@@ -30,7 +30,7 @@
     width: 300px;
     height: 250px;
     padding: 10px;
-    animation: grow 4s;
+    animation: grow 2s;
 }
 
 .certificate_img:hover{

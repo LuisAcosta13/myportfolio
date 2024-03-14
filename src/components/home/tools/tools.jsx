@@ -6,7 +6,11 @@ import { TbBrandJavascript } from 'react-icons/tb'
 import { FaNode } from 'react-icons/fa'
 import { SiExpress } from 'react-icons/si'
 import { SiMaterialui } from 'react-icons/si'
-import { SiPostgresql } from 'react-icons/si'
+import { DiSass } from "react-icons/di";
+import { DiWordpress } from "react-icons/di";
+import { DiSymfony } from "react-icons/di";
+import { DiDocker } from "react-icons/di";
+
 import './tools.css'
 
 export default function Tools(){
@@ -16,21 +20,28 @@ export default function Tools(){
     const muiIcon = <SiMaterialui/>
     const nodeIcon = <FaNode/>
     const expressIcon = <SiExpress/>
-    const postgreIcon = <SiPostgresql/>
+    const diSass = <DiSass/>
+    const diWordpress = <DiWordpress/>
+    const diSymfony = <DiSymfony/>
+    const diDocker = <DiDocker/>
 
     return(
         <div className="toolsContainer">
-            <h1>Estas son las principales herramientas que utilizo</h1>
+            <h1>These are my everyday tools</h1>
             <span className='circularBar'>
-                <CircularBar icon={jsIcon} value={90} title="Javascript"></CircularBar>
+                <CircularBar icon={jsIcon} value={100} title="Javascript"></CircularBar>
                 {/* <p className="toolTitle">Javascript</p> */}
+            </span>
+            <span className='circularBar'>
+                <CircularBar icon={diSass} value={100} title="Sass"></CircularBar>
+                {/* <div className="toolTitle">Sass</div> */}
             </span>
             <span className='circularBar'>
                 <CircularBar icon={reactIcon} value={90} title="React" ></CircularBar>
                 {/* <div className="toolTitle">React</div> */}
             </span>
             <span className='circularBar'>
-                <CircularBar icon={reduxIcon} value={80} title="Redux"></CircularBar>
+                <CircularBar icon={reduxIcon} value={70} title="Redux"></CircularBar>
                 {/* <div className="toolTitle">Redux</div> */}
             </span>
             <span className='circularBar'>
@@ -46,8 +57,13 @@ export default function Tools(){
                 {/* <div className="toolTitle">Express.js</div> */}
             </span>
             <span className='circularBar'>
-                <CircularBar icon={postgreIcon} value={60} title="PostgreSQL"></CircularBar>
-                {/* <div className="toolTitle">PostgreSQL</div> */}
+                <CircularBar icon={diWordpress} value={60} title="Wordpress"></CircularBar>
+            </span>
+            <span className='circularBar'>
+                <CircularBar icon={diSymfony} value={40} title="Symfony"></CircularBar>
+            </span>
+            <span className='circularBar'>
+                <CircularBar icon={diDocker} value={30} title="Docker"></CircularBar>
             </span>
         </div>
     )

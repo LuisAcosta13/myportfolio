@@ -15,7 +15,7 @@ import MenuItem from '@mui/material/MenuItem';
 import CodeIcon from '@mui/icons-material/Code';
 import './navbar.css'
 
-const pages = ['Sobre mí', 'Proyectos', 'Contacto'];
+const pages = ['About me', 'Projects', 'Contact'];
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
 
 function ResponsiveAppBar() {
@@ -38,10 +38,10 @@ function ResponsiveAppBar() {
   // };
 
   return (
-    <AppBar position="static" sx={{backgroundColor: 'rgb(26, 26, 26)'}}>
+    <AppBar position="static" sx={{background: 'linear-gradient(154deg, #d8d8d8, #d8d8d8, #848484, #848484, #d8d8d8, #d8d8d8)'}}>
       <Container maxWidth="xl">
         <Toolbar disableGutters>
-          <CodeIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} />
+          <CodeIcon sx={{ display: { xs: 'none', md: 'flex', filter: 'invert(1)' }, mr: 1 }} />
           <Typography
             variant="h6"
             noWrap
@@ -53,7 +53,7 @@ function ResponsiveAppBar() {
               fontFamily: 'monospace',
               fontWeight: 700,
               letterSpacing: '.3rem',
-              color: 'inherit',
+              color: 'rgb(22, 22, 22)',
               textDecoration: 'none',
             }}
           >
@@ -91,10 +91,10 @@ function ResponsiveAppBar() {
             >
               {pages.map((page) => (
                 <MenuItem key={page} onClick={handleCloseNavMenu}>
-                  <Link className='link' to={`/${page === 'Sobre mí' ? 'about' : page === 'Proyectos' ? 'projects' : page === 'Contacto' ? 'contact' : page}`}><Button
+                  <Link className='link' to={`/${page === 'About me' ? 'about' : page === 'Projects' ? 'projects' : page === 'Contact' ? 'contact' : page}`}><Button
                   key={page}
                   onClick={handleCloseNavMenu}
-                  sx={{ my: 2, color: 'white', display: 'block' }}
+                  sx={{ my: 2, color: 'rgb(22, 22, 22)', display: 'block' }}
                   ></Button>
                   <Typography sx={{ color: 'black' }} textAlign="center">{page}</Typography>
                 </Link>
@@ -125,10 +125,10 @@ function ResponsiveAppBar() {
           {/* PC */}
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
             {pages.map((page) => (
-              <Link className='link' to={`/${page === 'Sobre mí' ? 'about' : page === 'Proyectos' ? 'projects' : page === 'Contacto' ? 'contact' : page}`}><Button
+              <Link className='link' to={`/${page === 'About me' ? 'about' : page === 'Projects' ? 'projects' : page === 'Contact' ? 'contact' : page}`}><Button
                 key={page}
                 onClick={handleCloseNavMenu}
-                sx={{ my: 2, color: 'white', display: 'block' }}
+                sx={{ my: 2, color: 'rgb(22, 22, 22)', display: 'block' }}
               >
                 {page}
               </Button></Link>
